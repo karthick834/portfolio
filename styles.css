@@ -1,0 +1,308 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #1a1a1a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00e5ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00e5ff;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #00e5ff;
+}
+
+.btn {
+    display: inline-block;
+    background: #00e5ff;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0077b6;
+}
+
+/* Centering About Me Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 600px;
+}
+
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skill-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.neon-btn {
+    padding: 10px 15px;
+    border: none;
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #00e5ff;
+    transition: 0.3s;
+}
+
+.neon-btn:hover {
+    box-shadow: 0px 0px 20px #00e5ff;
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #00e5ff;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    color: #00e5ff;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    color: #0077b6;
+}
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: #1a1a1a;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00e5ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #00e5ff;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #00e5ff;
+}
+
+.btn {
+    display: inline-block;
+    background: #00e5ff;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #0077b6;
+}
+
+/* Centering About Me Section */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 600px;
+}
+
+.skills {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.skill-buttons {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.neon-btn {
+    padding: 10px 15px;
+    border: none;
+    background: #1a1a1a;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #00e5ff;
+    transition: 0.3s;
+}
+
+.neon-btn:hover {
+    box-shadow: 0px 0px 20px #00e5ff;
+}
+
+.projects {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 0px 10px #00e5ff;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact-links a {
+    display: inline-block;
+    margin: 10px;
+    font-size: 20px;
+    color: #00e5ff;
+    text-decoration: none;
+}
+
+.contact-links a:hover {
+    color: #0077b6;
+}
